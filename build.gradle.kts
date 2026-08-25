@@ -22,6 +22,11 @@ dependencies {
     implementation(ktorLibs.server.contentNegotiation)
     implementation(ktorLibs.serialization.kotlinx.json)
     implementation(libs.logback.classic)
+    implementation(libs.exposed.core)
+    implementation(libs.exposed.dao)
+    implementation(libs.exposed.jdbc)
+    implementation(libs.exposed.javatime)
+    implementation(libs.h2)
 
     testImplementation(kotlin("test"))
     testImplementation(ktorLibs.server.testHost)
